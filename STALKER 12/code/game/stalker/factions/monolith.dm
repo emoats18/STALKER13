@@ -9,7 +9,6 @@
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 1
-	activated = 1
 	limit_per_player = 2
 	outfit = /datum/outfit/job/monolith_soldier// /datum/outfit/job/duty
 
@@ -61,7 +60,6 @@
 	selection_color = "#601919"
 	whitelist_only = 1
 	limit_per_player = 1
-	activated = 1
 	outfit = /datum/outfit/job/monolith_sniper
 	real_rank = "Corporal"
 
@@ -96,7 +94,6 @@
 	selection_color = "#601919"
 	whitelist_only = 1
 	limit_per_player = 1
-	activated = 1
 	outfit = /datum/outfit/job/monolith_preacher
 	real_rank = "Lieutenant"
 
