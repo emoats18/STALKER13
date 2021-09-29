@@ -165,4 +165,4 @@
 	var/resize = 1 //Badminnery resize
 	var/footstep = 1 //Used for steps sound
 
-	pixel_step_size = 0
+	//pixel_step_size = 0
