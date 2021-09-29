@@ -52,7 +52,7 @@ k/* Kitchen tools
 /obj/item/weapon/kitchen/knife
 	name = "kitchen knife"
 	icon_state = "knife"
-	desc = "A general purpose kitchen knife used by Chefs all over the world. Great for butchering, better than nothing in combat."
+	desc = "A general purpose kitchen knife used by Chefs all over the world. Better than nothing in combat."
 	flags = CONDUCT
 	force = 15
 	w_class = 2
