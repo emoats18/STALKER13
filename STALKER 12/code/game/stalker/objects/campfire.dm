@@ -33,7 +33,7 @@
 obj/machinery/campfire/barrel
 	name = "barrel"
 	icon = 'icons/stalker/bochka.dmi'
-	icon_state = "barrel2"
+	icon_state = "barrel0"
 	density = 1
 
 /obj/machinery/campfire/attack_hand(mob/user)
