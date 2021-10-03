@@ -561,11 +561,11 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	nvg = new /obj/item/nightvision(src)
 
 /obj/item/clothing/suit/hooded/sealed/exoskelet
-	name = "exoskelet"
+	name = "Exoskeleton"
 	desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
 	eng_desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
 	icon_state = "exoskelet"
-	item_state = "syndicate-black"
+	item_state = "exoskelet"
 	blood_overlay_type = "armor"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -584,6 +584,106 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
 	flags = NODROP|BLOCKHAIR|BLOCKFACIALHAIR
 	icon_state = "exoskelet_helmet"
+
+/obj/item/clothing/suit/hooded/sealed/exoskeletm
+	name = "Merc Exoskeleton"
+	desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
+	eng_desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
+	icon_state = "exoskeletm"
+	item_state = "exoskeletm"
+	blood_overlay_type = "armor"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	min_cold_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	flags_inv = HIDEJUMPSUIT
+	armor = list(melee = 80, bullet = 80, laser = 50,burn = 30, bomb = 80, bio = 50, rad = 30, electro = 30, psy = 0)
+	hooded = 1
+	action_button_name = "Toggle Hood"
+	hoodtype = /obj/item/clothing/head/winterhood/stalker/sealed/exoskeletm
+	durability = 200
+
+/obj/item/clothing/head/winterhood/stalker/sealed/exoskeletm
+	name = "Merc Exoskeleton helmet"
+	armor = list(melee = 80, bullet = 80, laser = 50,burn = 30, bomb = 80, bio = 50, rad = 30, electro = 30, psy = 15)
+	heat_protection = HEAD
+	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	flags = NODROP|BLOCKHAIR|BLOCKFACIALHAIR
+	icon_state = "exoskelet_helmetm"
+
+/obj/item/clothing/suit/hooded/sealed/exoskeletd
+	name = "Duty Exoskeleton"
+	desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
+	eng_desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
+	icon_state = "exoskeletd"
+	item_state = "exoskeletd"
+	blood_overlay_type = "armor"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	min_cold_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	flags_inv = HIDEJUMPSUIT
+	armor = list(melee = 80, bullet = 80, laser = 50,burn = 30, bomb = 80, bio = 50, rad = 30, electro = 30, psy = 0)
+	hooded = 1
+	action_button_name = "Toggle Hood"
+	hoodtype = /obj/item/clothing/head/winterhood/stalker/sealed/exoskeletd
+	durability = 200
+
+/obj/item/clothing/head/winterhood/stalker/sealed/exoskeletd
+	name = "Duty Exoskeleton helmet"
+	armor = list(melee = 80, bullet = 80, laser = 50,burn = 30, bomb = 80, bio = 50, rad = 30, electro = 30, psy = 15)
+	heat_protection = HEAD
+	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	flags = NODROP|BLOCKHAIR|BLOCKFACIALHAIR
+	icon_state = "exoskeletd_helmet"
+
+/obj/item/clothing/suit/hooded/sealed/exoskeletf
+	name = "Freedom Exoskeleton"
+	desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
+	eng_desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
+	icon_state = "exoskeletd"
+	item_state = "exoskeletd"
+	blood_overlay_type = "armor"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	min_cold_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	flags_inv = HIDEJUMPSUIT
+	armor = list(melee = 80, bullet = 80, laser = 50,burn = 30, bomb = 80, bio = 50, rad = 30, electro = 30, psy = 0)
+	hooded = 1
+	action_button_name = "Toggle Hood"
+	hoodtype = /obj/item/clothing/head/winterhood/stalker/sealed/exoskeletf
+	durability = 200
+
+/obj/item/clothing/head/winterhood/stalker/sealed/exoskeletf
+	name = "Freedom Exoskeleton helmet"
+	armor = list(melee = 80, bullet = 80, laser = 50,burn = 30, bomb = 80, bio = 50, rad = 30, electro = 30, psy = 15)
+	heat_protection = HEAD
+	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	flags = NODROP|BLOCKHAIR|BLOCKFACIALHAIR
+	icon_state = "exoskeletd_helmet"
+
+/obj/item/clothing/suit/hooded/sealed/exoskeletmo
+	name = "Monolith Exoskeleton"
+	desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
+	eng_desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
+	icon_state = "exoskeletmo"
+	item_state = "exoskeletmo"
+	blood_overlay_type = "armor"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	min_cold_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	flags_inv = HIDEJUMPSUIT
+	armor = list(melee = 80, bullet = 80, laser = 50,burn = 30, bomb = 80, bio = 50, rad = 30, electro = 30, psy = 0)
+	hooded = 1
+	action_button_name = "Toggle Hood"
+	hoodtype = /obj/item/clothing/head/winterhood/stalker/sealed/exoskeletmo
+	durability = 200
+
+/obj/item/clothing/head/winterhood/stalker/sealed/exoskeletmo
+	name = "Monolith Exoskeleton helmet"
+	armor = list(melee = 80, bullet = 80, laser = 50,burn = 30, bomb = 80, bio = 50, rad = 30, electro = 30, psy = 15)
+	heat_protection = HEAD
+	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	flags = NODROP|BLOCKHAIR|BLOCKFACIALHAIR
+	icon_state = "exoskeletmo_helmet"
 
 /obj/item/clothing/suit/army
 	name = "military service armor"
