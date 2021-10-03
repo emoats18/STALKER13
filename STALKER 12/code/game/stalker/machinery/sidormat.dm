@@ -37,8 +37,8 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("SIG SG 550",			"SIG SG 550",		/obj/item/weapon/gun/projectile/automatic/sigsg550,				50000,	VETERAN),
 		new /datum/data/stalker_equipment("FN F2000",			"FN F2000",			/obj/item/weapon/gun/projectile/automatic/fnf2000,				65000,	EXPERT),
 		new /datum/data/stalker_equipment("GP 37",				"GP 37",			/obj/item/weapon/gun/projectile/automatic/gp37,					75000,	EXPERT),
-		new /datum/data/stalker_equipment("FN F2000S",			"FN F2000S",		/obj/item/weapon/gun/projectile/automatic/fnf2000s,				100000,	EXPERT)
-	    //new /datum/data/stalker_equipment("PKM",				"PKM",				/obj/item/weapon/gun/projectile/automatic/l6_saw/pkm,			200000,	EXPERT)
+		new /datum/data/stalker_equipment("FN F2000S",			"FN F2000S",		/obj/item/weapon/gun/projectile/automatic/fnf2000s,				100000,	EXPERT),
+	    new /datum/data/stalker_equipment("PKM",				"PKM",				/obj/item/weapon/gun/projectile/automatic/l6_saw/pkm,			200000,	EXPERT)
 	),
 
 	// Shotguns
@@ -139,8 +139,8 @@ var/list/global_sidormat_list = list(
 		new	/datum/data/stalker_equipment("SSP-99M Ecologist",			"SSP-99M Ecologist",		/obj/item/clothing/suit/hooded/sealed/ecologm,				100000,		EXPERT,	faction = "Ecologists"),
 		new	/datum/data/stalker_equipment("SEVA",						"SEVA",						/obj/item/clothing/suit/hooded/sealed/seva,					250000,		EXPERT,	faction = "Ecologists"),
 		new /datum/data/stalker_equipment("SKAT-9M",					"SKAT-9M",					/obj/item/clothing/suit/skat,								500000,		EXPERT,	faction = "Military"),
-		new	/datum/data/stalker_equipment("Exoskeleton",				"Exoskeleton",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			806000,		EXPERT	faction = "Loners"),
-		new	/datum/data/stalker_equipment("Exoskeleton",				"Exoskeleton",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			806000,		EXPERT	faction = "Bandits"),
+		new	/datum/data/stalker_equipment("Exoskeleton",				"Exoskeleton",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			806000,		EXPERT,	faction = "Loners"),
+		new	/datum/data/stalker_equipment("Exoskeleton",				"Exoskeleton",				/obj/item/clothing/suit/hooded/sealed/exoskelet,			806000,		EXPERT,	faction = "Bandits"),
 		new	/datum/data/stalker_equipment("Merc Exoskeleton",			"Merc Exoskeleton",			/obj/item/clothing/suit/hooded/sealed/exoskeletm,			806000,		EXPERT,	faction = "Mercenaries"),
 		new	/datum/data/stalker_equipment("Duty Exoskeleton",			"Duty Exoskeleton",			/obj/item/clothing/suit/hooded/sealed/exoskeletd,			806000,		EXPERT,	faction = "Duty"),
 		new	/datum/data/stalker_equipment("Freedom Exoskeleton",		"Freedom Exoskeleton",		/obj/item/clothing/suit/hooded/sealed/exoskeletf,			806000,		EXPERT,	faction = "Freedom"),
