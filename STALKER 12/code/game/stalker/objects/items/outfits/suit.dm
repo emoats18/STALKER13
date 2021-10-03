@@ -940,12 +940,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	strip_delay = 80
 	put_on_delay = 60
 	flags_inv = HIDEJUMPSUIT
-	armor = list(melee = 25, bullet = 25, laser = 50,burn = 65, bomb = 30, bio = 50, rad = 40, electro = 65, psy = 0)
+	armor = list(melee = 75, bullet = 65, laser = 50,burn = 40, bomb = 80, bio = 35, rad = 45, electro = 40, psy = 0)
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/veter
 	durability = 150
 
 /obj/item/clothing/head/winterhood/stalker/veter
-	armor = list(melee = 25, bullet = 0, laser = 50,burn = 45, bomb = 0, bio = 20, rad = 40, electro = 45, psy = 0)
+	armor = list(melee = 30, bullet = 0, laser = 50,burn = 45, bomb = 0, bio = 20, rad = 40, electro = 45, psy = 0)
 	heat_protection = HEAD
 	max_heat_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
 	icon_state = "winterhood_strazh"
@@ -964,12 +964,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	max_heat_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
 	flags_inv = HIDEJUMPSUIT
 	unacidable = 1
-	armor = list(melee = 75, bullet = 65, laser = 50,burn = 40, bomb = 80, bio = 35, rad = 45, electro = 40, psy = 0)
+	armor = list(melee = 25, bullet = 25, laser = 50,burn = 65, bomb = 30, bio = 50, rad = 40, electro = 65, psy = 0)
 	durability = 200
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/head/winterhood/stalker/strazh
-	armor = list(melee = 30, bullet = 0, laser = 50,burn = 45, bomb = 0, bio = 20, rad = 40, electro = 45, psy = 0)
+	armor = list(melee = 25, bullet = 0, laser = 50,burn = 45, bomb = 0, bio = 20, rad = 40, electro = 45, psy = 0)
 	heat_protection = HEAD
 	max_heat_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
 	icon_state = "winterhood_wind_of_freedom"
