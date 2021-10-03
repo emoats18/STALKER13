@@ -19,18 +19,18 @@
 
 /obj/structure/closet/crate/stalker/blue/stash/low
 	lootdoubles = 1
-	lootcount = 1
-	rating_add = 100
+	lootcount = 3
+	rating_add = 50
 
 /obj/structure/closet/crate/stalker/blue/stash/medium
 	lootdoubles = 1
 	lootcount = 2
-	rating_add = 250
+	rating_add = 125
 
 /obj/structure/closet/crate/stalker/blue/stash/high
 	lootdoubles = 0
-	lootcount = 2
-	rating_add = 500
+	lootcount = 1
+	rating_add = 250
 
 /*
 /obj/structure/closet/crate/stalker/blue/stash/New()
