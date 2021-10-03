@@ -845,6 +845,34 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	icon_state = "monolith_scientific_helmet"
 	burn_state = FIRE_PROOF
 
+/obj/item/clothing/suit/hooded/sealed/merc
+	name = "merc ace suit"
+	desc = "This bodysuit, intended for conducting research in the Zone, combines a closed-cycle respiratory module and an external isolation coating, resulting in excellent protection from anomalies. Due to poor protection from physical impact, the suit is not a good defense against bullet and fragmentation damage. It comes with a built-in artifact transportation container."
+	eng_desc = "This bodysuit, intended for conducting research in the Zone, combines a closed-cycle respiratory module and an external isolation coating, resulting in excellent protection from anomalies. Due to poor protection from physical impact, the suit is not a good defense against bullet and fragmentation damage. It comes with a built-in artifact transportation container."
+	icon_state = "mercace"
+	item_state = "mercace"
+	blood_overlay_type = "armor"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	max_heat_protection_temperature = FIRE_IMMUNITY_SUIT_MAX_TEMP_PROTECT
+	flags_inv = HIDEJUMPSUIT
+	flags = STOPSPRESSUREDMAGE | THICKMATERIAL
+	armor = list(melee = 45, bullet = 50, laser = 45, burn = 45, bomb = 45, bio = 65, rad = 75, electro = 60, psy = 0)
+	hoodtype = /obj/item/clothing/head/winterhood/stalker/sealed/merc
+	burn_state = FIRE_PROOF
+	durability = 200
+	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "visor_suit" = 0, "accessory_slot" = 0)
+
+/obj/item/clothing/head/winterhood/stalker/sealed/merc
+	name = "merc ace suit helmet"
+	armor = list(melee = 50, bullet = 50, laser = 45, burn = 45, bomb = 45, bio = 65, rad = 75, electro = 60, psy = 0)
+	heat_protection = HEAD
+	max_heat_protection_temperature = FIRE_IMMUNITY_HELM_MAX_TEMP_PROTECT
+	flags = NODROP|BLOCKHAIR|BLOCKFACIALHAIR
+	icon_state = "mercace_helmet"
+	burn_state = FIRE_PROOF
+
 /obj/item/clothing/suit/skat
 	name = "SKAT-M9"
 	desc = "This Skat-9M bulletproof military suit is designed for assault operations in areas of anomalous activity. It includes a PSZ-12p heavy military bulletproof suit, an integrated compensation suit and a Sphere-12M helmet. It provides perfect protection from bullets and splinters and it doesn't decrease the soldier's mobility. It has a balanced system of anomaly protection."

@@ -134,6 +134,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Monolith Scientific Suit",	"Monolith Scientific Suit",	/obj/item/clothing/suit/hooded/sealed/monolith,				60000,		ROOKIE,		faction = "Monolith"),
 		new /datum/data/stalker_equipment("PS5-M",						"PS5-M",					/obj/item/clothing/suit/hooded/kombez/ps5m,					25000,		ROOKIE,		faction = "Duty"),
 		new /datum/data/stalker_equipment("Heavy Mercenary Armour",		"Heavy Mercenary Armour",	/obj/item/clothing/suit/assaultmerc,						50000,		EXPERIENCED,faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("Mercenary Ace Suit",			"Mercenary Ace Suit",		/obj/item/clothing/suit/hooded/sealed/merc,					60000,		ROOKIE,		faction = "Mercenaries"),
 		new /datum/data/stalker_equipment("PSZ-9D",						"PSZ-9D",					/obj/item/clothing/suit/psz9d,								60000,		VETERAN,	faction = "Duty"),
 		new	/datum/data/stalker_equipment("PSZ-9M",						"PSZ-9M",					/obj/item/clothing/suit/hooded/sealed/psz9md,				75000,		VETERAN,	faction = "Duty"),
 		new	/datum/data/stalker_equipment("SSP-99 Ecologist",			"SSP-99 Ecologist",			/obj/item/clothing/suit/hooded/sealed/ecolog,				75000,		EXPERT,	faction = "Ecologists"),
