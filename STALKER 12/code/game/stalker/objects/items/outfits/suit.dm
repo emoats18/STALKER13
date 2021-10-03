@@ -633,14 +633,14 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	heat_protection = HEAD
 	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
 	flags = NODROP|BLOCKHAIR|BLOCKFACIALHAIR
-	icon_state = "exoskeletd_helmet"
+	icon_state = "exoskelet_helmetd"
 
 /obj/item/clothing/suit/hooded/sealed/exoskeletf
 	name = "Freedom Exoskeleton"
 	desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
 	eng_desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
-	icon_state = "exoskeletd"
-	item_state = "exoskeletd"
+	icon_state = "exoskeletf"
+	item_state = "exoskeletf"
 	blood_overlay_type = "armor"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -658,7 +658,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	heat_protection = HEAD
 	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
 	flags = NODROP|BLOCKHAIR|BLOCKFACIALHAIR
-	icon_state = "exoskeletd_helmet"
+	icon_state = "exoskelet_helmetf"
 
 /obj/item/clothing/suit/hooded/sealed/exoskeletmo
 	name = "Monolith Exoskeleton"
@@ -683,7 +683,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	heat_protection = HEAD
 	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
 	flags = NODROP|BLOCKHAIR|BLOCKFACIALHAIR
-	icon_state = "exoskeletmo_helmet"
+	icon_state = "exoskelet_helmetmo"
 
 /obj/item/clothing/suit/army
 	name = "military service armor"
