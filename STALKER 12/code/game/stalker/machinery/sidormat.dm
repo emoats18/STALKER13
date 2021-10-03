@@ -200,7 +200,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Big Artifact belt",					"Big Artifact belt",					/obj/item/weapon/storage/belt/stalker/artifact_belt,			60000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Small Artifact belt",				"Small Artifact belt",					/obj/item/weapon/storage/belt/stalker/artifact_belt/small,		25000,	ROOKIE),
 		new /datum/data/stalker_equipment("USMC Warbelt",						"USMC Warbelt",							/obj/item/weapon/storage/belt/military/webbing/warbelt,			40000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("Cheap Storage Webbing",				"Cheap Storage Webbing",				/obj/item/weapon/storage/belt/military/webbing/storage/cheap,	20000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("Cheap Storage Webbing",				"Cheap Storage Webbing",				/obj/item/weapon/storage/belt/military/webbing/cheap,	20000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Storage Webbing",					"Storage Webbing",						/obj/item/weapon/storage/belt/military/webbing/storage,			30000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Matches",							"Matches",								/obj/item/weapon/storage/box/matches,							1000,	ROOKIE),
 		new /datum/data/stalker_equipment("Simple lighter",						"Simple lighter",						/obj/item/weapon/lighter/greyscale,								3000,	ROOKIE),
