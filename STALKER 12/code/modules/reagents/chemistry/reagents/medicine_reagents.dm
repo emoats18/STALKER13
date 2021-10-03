@@ -354,8 +354,6 @@
 
 datum/reagent/medicine/mine_salve/overdose_process(mob/living/M, show_message = 1)
 	if(iscarbon(M))
-		var/mob/living/carbon/N = M
-		N.hal_screwyhud = 0
 		M.Stun(7)
 		M.Weaken(7)
 		if(show_message)
@@ -369,7 +367,7 @@ datum/reagent/medicine/mine_salve/overdose_process(mob/living/M, show_message = 
 /datum/reagent/medicine/mine_salve/on_mob_delete(mob/living/M)
 	if(iscarbon(M))
 		var/mob/living/carbon/N = M
-		N.hal_screwyhud = 0
+		N.hal_screwyhud &= ~5
 	..()
 
 /datum/reagent/medicine/synthflesh
