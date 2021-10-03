@@ -762,7 +762,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	name = "wind of freedom"
 	desc = "This lightweight stalker bodysuit is made by Freedom craftsmen. The suit's fabric is treated with Horizon, a special solution developed by the faction by trial and error to increase resistance to anomalies. Like the Sunrise suit, the Wind of Freedom comes with built-in body armor and artifact containers."
 	eng_desc = "This lightweight stalker bodysuit is made by Freedom craftsmen. The suit's fabric is treated with Horizon, a special solution developed by the faction by trial and error to increase resistance to anomalies. Like the Sunrise suit, the Wind of Freedom comes with built-in body armor and artifact containers."
-	icon_state = "veter"
+	icon_state = "wind_of_freedom"
 	item_state = "syndicate-green"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -779,7 +779,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 25, bullet = 0, laser = 50,burn = 45, bomb = 0, bio = 20, rad = 40, electro = 45, psy = 0)
 	heat_protection = HEAD
 	max_heat_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
-	icon_state = "winterhood_strazh"
+	icon_state = "winterhood_wind_of_freedom"
 
 /obj/item/clothing/suit/strazh
 	name = "guardian of freedom"
