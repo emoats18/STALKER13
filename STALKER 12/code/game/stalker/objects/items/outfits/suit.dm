@@ -587,9 +587,10 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/army
 	name = "military service armor"
+	desc = "A poor protective outfit contracted by government bureaucrats outsourcing to the lowest bidder. Typically issued to helicopter pilots, tank drivers, rear-echelon personnel, conscripts and enlisted servicemen. Provides adequate protection from small mutants. Although its overall combat protection is better than the leather jackets commonly found on the rookies of other factions, that really isn't saying much."
 	eng_desc = "A poor protective outfit contracted by government bureaucrats outsourcing to the lowest bidder. Typically issued to helicopter pilots, tank drivers, rear-echelon personnel, conscripts and enlisted servicemen. Provides adequate protection from small mutants. Although its overall combat protection is better than the leather jackets commonly found on the rookies of other factions, that really isn't saying much."
 	icon_state = "army_armor1"
-	item_state = "armor"
+	item_state = "army_armor1"
 	blood_overlay_type = "armor"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -600,6 +601,74 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 30, bullet = 40, laser = 10,burn = 25, bomb = 10, bio = 0, rad = 15, electro = 25, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 125
+	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
+
+/obj/item/clothing/suit/mil
+	name = "military vest"
+	eng_desc = "A poor protective vest contracted by government bureaucrats outsourcing to the lowest bidder. Provides adequate protection from small mutants. Although its overall combat protection is better than the leather jackets commonly found on the rookies of other factions, that really isn't saying much."
+	desc = "A poor protective outfit contracted by government bureaucrats outsourcing to the lowest bidder. Typically issued to helicopter pilots, tank drivers, rear-echelon personnel, conscripts and enlisted servicemen. Provides adequate protection from small mutants. Although its overall combat protection is better than the leather jackets commonly found on the rookies of other factions, that really isn't saying much."
+	icon_state = "milbodyarmor"
+	item_state = "milbodyarmor"
+	blood_overlay_type = "armor"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	max_heat_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
+	unacidable = 1
+	armor = list(melee = 30, bullet = 40, laser = 10,burn = 25, bomb = 10, bio = 0, rad = 15, electro = 25, psy = 0)
+	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
+	durability = 125
+	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
+
+/obj/item/clothing/suit/ballistic
+	name = "ballistic vest"
+	desc = "Ballistic vest commonly used by the Merc faction. Its design is based on the vest used by the special forces of the Western armies. Due to a special treatment of the fabric, the armor has a strengthened stability during the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof vests."
+	eng_desc = "Ballistic vest commonly used by the Merc faction. Its design is based on the vest used by the special forces of the Western armies. Due to a special treatment of the fabric, the armor has a strengthened stability during the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof vests."
+	icon_state = "bodyarmor"
+	item_state = "bodyarmor"
+	blood_overlay_type = "armor"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	max_heat_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
+	strip_delay = 80
+	put_on_delay = 60
+	armor = list(melee = 20, bullet = 45, laser = 10,burn = 15, bomb = 10, bio = 0, rad = 10, electro = 15, psy = 0)
+	durability = 150
+
+/obj/item/clothing/suit/civ
+	name = "flak jacket"
+	desc = "A dated flak jacket that will provide slight ballistic protection and is poor against damage from mutants and anomalies."
+	eng_desc = "A dated flak jacket that will provide slight ballistic protection and is poor against damage from mutants and anomalies."
+	icon_state = "flakjacket"
+	item_state = "flakjacket"
+	blood_overlay_type = "armor"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	max_heat_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
+	strip_delay = 80
+	put_on_delay = 60
+	armor = list(melee = 20, bullet = 30, laser = 10,burn = 10, bomb = 35, bio = 0, rad = 0, electro = 0, psy = 0)
+	durability = 150
+	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
+
+/obj/item/clothing/suit/toggle/flight
+	name = "flight vest"
+	desc = "A regional flight jacket. features an added button-in/out liner for extra warmth, along with a cotton-fiber stretch coif. You'd have to wonder how exactly it got here into the zone other than previous disaster."
+	eng_desc = "A regional flight jacket. features an added button-in/out liner for extra warmth, along with a cotton-fiber stretch coif. You'd have to wonder how exactly it got here into the zone other than previous disaster."
+	icon_state = "flightvest"
+	item_state = "flightvest"
+	blood_overlay_type = "armor"
+	togglename = "buttons"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	max_heat_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
+	strip_delay = 80
+	put_on_delay = 60
+	armor = list(melee = 45, bullet = 30, laser = 10,burn = 10, bomb = 20, bio = 0, rad = 0, electro = 0, psy = 0)
+	durability = 150
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /*

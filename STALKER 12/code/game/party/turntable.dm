@@ -85,6 +85,13 @@
 		new /datum/data/turntable_soundtrack ("Phantasmagoria",		"Poziv U Raj",						'sound/turntable/poziv_u_raj.ogg',							1110),
 		new /datum/data/turntable_soundtrack ("Tape Recorder",		"Dead Evening",						'sound/turntable/dead_evening.ogg',							1110),
 		new /datum/data/turntable_soundtrack ("Molchat Doma",		"Sudno",							'sound/turntable/sudno.ogg',								1110),
+		new /datum/data/turntable_soundtrack ("Vladimir Vasilkov",	"Woodpeckers Dont Get Headaches",	'sound/turntable/woodpeckersdontgetheadaches.ogg',			1110),
+		new /datum/data/turntable_soundtrack ("Soyol Erdene",		"The First Snow",					'sound/turntable/soyolerdene_thefirstsnow.ogg',				1110),
+		new /datum/data/turntable_soundtrack ("Molchat Doma",		"Tancevat",							'sound/turntable/molchatdoma_tancevat.ogg',					1110),
+		new /datum/data/turntable_soundtrack ("England",			"No Other Way",						'sound/turntable/england_nootherway.ogg',						1110),
+		new /datum/data/turntable_soundtrack ("Space",				"Ballad for Space Lovers",			'sound/turntable/space_balladforspacelovers.ogg',			1110),
+		new /datum/data/turntable_soundtrack ("Venetian Snares",	"Black Sabbath",					'sound/turntable/Snares-BlackSabbath.ogg',					1110),
+		new /datum/data/turntable_soundtrack ("Glintshake",			"Steppe is the Place",				'sound/turntable/Glintshake_SteppeisthePlace.ogg',			1110),
 	)
 	anchored = 1
 	density = 1
