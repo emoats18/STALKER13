@@ -170,8 +170,8 @@
 /obj/item/weapon/storage/belt/military/webbing/warbelt
 	name = "warbelt"
 	desc = "Old pattern USMC warbelt, previously issued to marines stationed around Iraq, now being mass imported into the Zone for a discount. Very common among mercenaries."
-	icon_state = "warbelt"
-	item_state = "warbelt"
+	icon_state = "assaultbelt"
+	item_state = "security"
 	storage_slots = 8
 
 /obj/item/weapon/storage/belt/wands
