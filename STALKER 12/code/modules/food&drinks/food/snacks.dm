@@ -63,11 +63,11 @@
 			if(junkiness && M.satiety < -150 && M.nutrition > NUTRITION_LEVEL_STARVING + 50 )
 				M << "<span class='notice'>You don't feel like eating any more junk food at the moment.</span>"
 				return 0
-			if(taste_description)
-				M << "<span class='notice'>You can taste [taste_description].</span>"
 			if(wrapped)
 				M << "<span class='warning'>You should unwrap [src] first!</span>"
 				return 0
+			if(taste_description)
+				M << "<span class='notice'>You can taste [taste_description].</span>"
 			else if(fullness <= 50)
 				user.visible_message("<span class='notice'>[user] hungrily takes a [eatverb] from \the [src], gobbling it down!</span>", "<span class='notice'>You hungrily take a [eatverb] from \the [src], gobbling it down!</span>")
 			else if(fullness > 50 && fullness < 150)
