@@ -131,7 +131,7 @@ var/id_ = 0
 	cost = 18000
 	desc = "Kevlar helmet coverage protects from bullets.." //&#x44F;
 	eng_desc = "Kevlar helmet coverage protects from bullets."
-	add_armor = list(melee = 0, bullet = 10, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 0)
+	add_armor = list(melee = 0, bullet = 5, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 0)
 	tier = 1
 
 /////////////////////////////////////MATERIAL - II TIER/////////////////////////////////////////////////////
@@ -140,7 +140,7 @@ var/id_ = 0
 	cost = 18000
 	desc = "Ceramic armor provides great protection from bullets and explosions." //&#x44F;
 	eng_desc = "Ceramic armor provides great protection from bullets and explosions."
-	add_armor = list(melee = 0, bullet = 15, laser = 0,energy = 0, bomb = 10, bio = 0, rad = 0, psy = 0)
+	add_armor = list(melee = 0, bullet = 10, laser = 0,energy = 0, bomb = 5, bio = 0, rad = 0, psy = 0)
 	tier = 2
 
 /////////////////////////////////////PADDING - I TIER///////////////////////////////////////////////////////
@@ -149,7 +149,7 @@ var/id_ = 0
 	cost = 15000
 	desc = "Psionic protection module protects head and brain from psionic waves.."
 	eng_desc = "Psionic protection module protects head and brain from psionic waves."
-	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 15)
+	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 10)
 	tier = 1
 
 /datum/data/modification/clothing/head/padding/filter
@@ -157,7 +157,7 @@ var/id_ = 0
 	cost = 15000
 	desc = "Filter installation protects user from radiation."
 	eng_desc = "Filter installation protects user from radiation."
-	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 15, psy = 0)
+	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 10, psy = 0)
 	tier = 1
 
 /////////////////////////////////////PADDING - II TIER///////////////////////////////////////////////////////
@@ -166,7 +166,7 @@ var/id_ = 0
 	cost = 30000
 	desc = "Advanced psionic protection module protects head from psionic waves."
 	eng_desc = "Advanced psionic protection module protects head from psionic waves."
-	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 25)
+	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 15)
 	tier = 2
 
 /datum/data/modification/clothing/head/padding/filter_advanced
@@ -174,7 +174,7 @@ var/id_ = 0
 	cost = 25000
 	desc = "Installation of advanced filter, protects user not only from radiation, but acidic atmosphere and high temperature."
 	eng_desc = "Installation of advanced filter, protects user not only from radiation, but acidic atmosphere and high temperature."
-	add_armor = list(melee = 0, bullet = 0, laser = 5,energy = 0, bomb = 0, bio = 5, rad = 20, psy = 0)
+	add_armor = list(melee = 0, bullet = 0, laser = 5,energy = 0, bomb = 0, bio = 5, rad = 10, psy = 0)
 	tier = 2
 
 /////////////////////////////////////NIGHTVISION////////////////////////////////////////////////////////
@@ -304,7 +304,7 @@ var/id_ = 0
 	cost = 10000
 	desc = "Through the use of a specialized spray to coat the inner lining of your clothing, You can increase your clothing's protection against electrical anomalies."
 	eng_desc = "Through the use of a specialized spray to coat the inner lining of your clothing, You can increase your clothing's protection against electrical anomalies."
-	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 10, bomb = 0, bio = 0, rad = 0, psy = 0)
+	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 5, bomb = 0, bio = 0, rad = 0, psy = 0)
 	tier = 1
 
 /datum/data/modification/clothing/suit/lining/thinsulate
@@ -312,7 +312,7 @@ var/id_ = 0
 	cost = 12000
 	desc = "Through the use of specialized, fire resistant cloth, you can in increase your clothing's protection against flash fires, and fire based anomalies."
 	eng_desc = "Through the use of specialized, fire resistant cloth, you can in increase your clothing's protection against flash fires, and fire based anomalies."
-	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0, psy = 0)
+	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 5, rad = 0, psy = 0)
 	tier = 1
 /////////////////////////////////////LINING - II TIER///////////////////////////////////////////////////////
 /datum/data/modification/clothing/suit/lining/nitrile
@@ -320,7 +320,7 @@ var/id_ = 0
 	cost = 20000
 	desc = "Light nitrile compound improves electricity insulation."
 	eng_desc = "Light nitrile compound improves electricity insulation."
-	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 20, bomb = 0, bio = 0, rad = 0, psy = 0)
+	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 10, bomb = 0, bio = 0, rad = 0, psy = 0)
 	tier = 2
 
 /datum/data/modification/clothing/suit/lining/fiberglass
@@ -328,7 +328,7 @@ var/id_ = 0
 	cost = 24000
 	desc = "With this thin layer of fiberglass lining, the user gains significant resistance to fire and flames, granting optimal protection again fire anomalies."
 	eng_desc = "With this thin layer of fiberglass lining, the user gains significant resistance to fire and flames, granting optimal protection again fire anomalies."
-	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 20, rad = 0, psy = 0)
+	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0, psy = 0)
 	tier = 2
 /////////////////////////////////////MATERIAL - I TIER//////////////////////////////////////////////////////
 /datum/data/modification/clothing/suit/material/kevlar
@@ -336,7 +336,7 @@ var/id_ = 0
 	cost = 15000
 	desc = "A light Kevlar layer increases your suit's resistance against projectile based weaponry."
 	eng_desc = "A light Kevlar layer increases your suit's resistance against projectile based weaponry."
-	add_armor = list(melee = 5, bullet = 10, laser = 0,energy = 0, bomb = 5, bio = 0, rad = 0, psy = 0)
+	add_armor = list(melee = 5, bullet = 5, laser = 0,energy = 0, bomb = 5, bio = 0, rad = 0, psy = 0)
 	tier = 1
 
 /datum/data/modification/clothing/suit/material/lead
@@ -344,7 +344,7 @@ var/id_ = 0
 	cost = 13500
 	desc = "A small, half inch thick lead plate that fits snugly underneath your suit, just big enough to shield most of your vital organs from radiation."
 	eng_desc = "A small, half inch thick lead plate that fits snugly underneath your suit, just big enough to shield most of your vital organs from radiation."
-	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 5, bio = 0, rad = 15, psy = 0)
+	add_armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 5, bio = 0, rad = 10, psy = 0)
 	tier = 1
 
 /datum/data/modification/clothing/suit/material/alloy
@@ -352,7 +352,7 @@ var/id_ = 0
 	cost = 14000
 	desc = "With the addition of a layer of a highly resistant mesh alloy, your suit will provide light, but general protection from most of the zones anomalies."
 	eng_desc = "With the addition of a layer of a highly resistant mesh alloy, your suit will provide light, but general protection from most of the zones anomalies."
-	add_armor = list(melee = 0, bullet = 0, laser = 5,energy = 10, bomb = 0, bio = 10, rad = 0, psy = 0)
+	add_armor = list(melee = 0, bullet = 0, laser = 5,energy = 5, bomb = 0, bio = 5, rad = 0, psy = 0)
 	tier = 1
 
 /////////////////////////////////////MATERIAL - II TIER/////////////////////////////////////////////////////
@@ -361,7 +361,7 @@ var/id_ = 0
 	cost = 30000
 	desc = "With these Military grade composite armor plates, the user games significant protection against bladed, projectile, and explosion based weaponry."
 	eng_desc = "With these Military grade composite armor plates, the user games significant protection against bladed, projectile, and explosion based weaponry."
-	add_armor = list(melee = 10, bullet = 15, laser = 0,energy = 0, bomb = 10, bio = 0, rad = 0, psy = 0)
+	add_armor = list(melee = 10, bullet = 10, laser = 0,energy = 0, bomb = 5, bio = 0, rad = 0, psy = 0)
 	tier = 2
 
 /datum/data/modification/clothing/suit/material/wolfram
@@ -402,7 +402,7 @@ var/id_ = 0
 	cost = 28000
 	desc = "A specialized Twaron padding, will provide general protection against most of the zones mutants."
 	eng_desc = "A specialized Twaron padding, will provide general protection against most of the zones mutants."
-	add_armor = list(melee = 15, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 0)
+	add_armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0, psy = 0)
 	tier = 2
 
 /datum/data/modification/clothing/suit/padding/teflon

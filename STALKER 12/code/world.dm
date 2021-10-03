@@ -170,7 +170,7 @@ var/world_topic_spam_protect_time = world.timeofday
 		if(ticker && ticker.round_end_sound)
 			world << sound(ticker.round_end_sound)
 		else
-			world << sound(pick('sound/AI/newroundsexy.ogg','sound/misc/apcdestroyed.ogg','sound/misc/bangindonk.ogg','sound/misc/leavingtg.ogg')) // random end sounds!! - LastyBatsy
+			world << sound(pick('sound/misc/getoutofherestalker.ogg','sound/misc/markedonewhatthehell.ogg','sound/misc/bylat.ogg','sound/misc/ahnucheekibreekiivdamke.ogg','sound/misc/themonolith.ogg','sound/misc/strelok.ogg')) // random end sounds!! - LastyBatsy
 	for(var/client/C in clients)
 		if(config.server)	//if you set a server location in config.txt, it sends you there instead of trying to reconnect to the same world address. -- NeoFite
 			C << link("byond://[config.server]")
@@ -205,7 +205,7 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	if (config && config.server_name)
 		hub_info += "<b>[config.server_name]</b>"
-		hub_info += "<br><br><b>Discord</b>: <a href=\"[config.forumurl]\">S.T.A.L.K.E.R. 12 - Ashes on Sunday (OFFICIAL)</a>"
+		hub_info += "<br><br><b>Discord</b>: <a href=\"[config.forumurl]\">S.T.A.L.K.E.R. 13 (OFFICIAL)</a>"
 
 	if(ticker)
 		if(master_mode)

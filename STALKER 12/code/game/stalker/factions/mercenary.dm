@@ -2,15 +2,15 @@
 	title = "Mercenary"
 	faction_s = "Mercenaries"
 	faction = "Station"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = -1
+	spawn_positions = -1
 	locked = 1
-	supervisors = ""
+	supervisors = "Mercenary Leader"
 	selection_color = "#2e708b"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 1
-	limit_per_player = 1
+	//limit_per_player = 1
 	outfit = /datum/outfit/job/mercenary
 
 /datum/outfit/job/mercenary
@@ -59,29 +59,29 @@
 	suit_store = /obj/item/weapon/gun/projectile/automatic/mp5
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 
-/datum/job/mercenary_veteran
-	title = "Mercenary Veteran"
+/datum/job/mercenary_leader
+	title = "Mercenary Leader"
 	faction_s = "Mercenaries"
 	faction = "Station"
-	total_positions = 0
+	total_positions = 2
 	locked = 1
-	spawn_positions = -1
+	spawn_positions = 2
 	supervisors = ""
 	selection_color = "#2e708b"
 	whitelist_only = 1
 	limit_per_player = 1
-	outfit = /datum/outfit/job/mercenary_veteran
+	outfit = /datum/outfit/job/mercenary_leader
 	real_rank = "Lieutenant"
 
-/datum/outfit/job/mercenary_veteran
-	name = "Mercenary Veteran"
+/datum/outfit/job/mercenary_leader
+	name = "Mercenary Leader"
 	faction_s = "Mercenaries"
 
-/datum/outfit/job/mercenary_veteran/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/mercenary_leader/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/assaultmerc
 	uniform = UNIFORMPICK
-	suit = /obj/item/clothing/suit/hooded/kombez/mercenary
+	suit = /obj/item/clothing/suit/assaultmerc
 	ears = null
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless

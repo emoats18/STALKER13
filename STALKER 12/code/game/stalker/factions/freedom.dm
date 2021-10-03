@@ -9,10 +9,11 @@
 // Freedom soldier
 /datum/job/freedom_soldier
 	title = "Freedom Soldier"
+	faction = "Station"
 	faction_s = "Freedom"
 	whitelist_only = 0
-	total_positions = 6
-	spawn_positions = 6
+	total_positions = -1
+	spawn_positions = -1
 	supervisors = "Chief Anarchist"
 	selection_color = "#3C8C3C"
 	access = list()
@@ -22,6 +23,7 @@
 // Svoboda leader
 /datum/job/freedom_leader
 	title = "Freedom Chief Anarchist" // This guy.
+	faction = "Station"
 	faction_s = "Freedom"
 	whitelist_only = 1
 	total_positions = 2
@@ -49,7 +51,7 @@
 	suit_store = /obj/item/weapon/gun/projectile/automatic/mp5
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/stalker/b9x19 = 1)
-	r_pocket = /obj/item/weapon/stalker/bolts
+	r_pocket = /obj/item/device/flashlight/seclite
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa, /obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 
 // Svoboda leader
@@ -61,7 +63,7 @@
 	..()
 	head = /obj/item/clothing/head/steel
 	uniform = UNIFORMPICK
-	suit = /obj/item/clothing/suit/hooded/kombez/veter
+	suit = /obj/item/clothing/suit/strazh
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
@@ -69,3 +71,4 @@
 	backpack_contents = list(/obj/item/ammo_box/stalker/b55645 = 1, /obj/item/ammo_box/magazine/stalker/m556x45 = 2, /obj/item/device/flashlight/seclite = 1)
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa, /obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
+	r_pocket = /obj/item/device/flashlight/seclite

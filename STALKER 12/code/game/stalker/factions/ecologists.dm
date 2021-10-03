@@ -1,13 +1,14 @@
 /datum/job/ecologist
 	title = "Ecologist"
 	faction_s = "Ecologist"
-	total_positions = 3
+	faction = "Station"
+	total_positions = -1
 	locked = 1
-	spawn_positions = 3
+	spawn_positions = -1
 	supervisors = "Chief Ecologist"
 	selection_color = "#601919"
 	whitelist_only = 1
-	limit_per_player = 1
+	//limit_per_player = 1
 	activated = 1
 	outfit = /datum/outfit/job/ecologist
 	real_rank = "Private"
@@ -60,6 +61,7 @@
 
 /datum/job/chief_ecologist
 	title = "Chief Ecologist"
+	faction = "Station"
 	faction_s = "Ecologist"
 	total_positions = 2
 	locked = 1

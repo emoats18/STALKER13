@@ -521,7 +521,7 @@
 "ka" = (/obj/structure/stalker/cacheable/porog/porog2{tag = "icon-porog2 (EAST)"; icon_state = "porog2"; dir = 4},/turf/simulated/floor/plasteel/floorgrime,/area/stalker/buildings)
 "kb" = (/obj/structure/stalker/car/gryzovik/north,/turf/stalker/floor/road,/area/stalker/buildings)
 "kc" = (/turf/simulated/mineral,/area/stalker/blowout/rostok/buildings)
-"kd" = (/obj/structure/closet/stalker/shkaf,/mob/living/simple_animal/hostile/syndicate/civilian,/turf/stalker/floor/road,/area/stalker/blowout/rostok/buildings)
+"kd" = (/obj/structure/closet/stalker/shkaf,/turf/stalker/floor/road,/area/stalker/blowout/rostok/buildings)
 "ke" = (/obj/anomaly/jarka,/obj/structure/closet/stalker/shkaf,/turf/stalker/floor/road,/area/stalker/blowout/rostok/buildings)
 "kf" = (/turf/stalker/floor/plasteel/plita,/area/stalker/rostok/buildings)
 "kg" = (/turf/simulated/floor/plasteel/stairs/old{tag = "icon-stairs-old (EAST)"; icon_state = "stairs-old"; dir = 4},/area/stalker/rostok/buildings)
