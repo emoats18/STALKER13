@@ -1,9 +1,10 @@
 /datum/job/military_spetsnaz
 	title = "Military Spetsnaz"
 	faction_s = "Military"
-	total_positions = 1
+	faction = "Station"
+	total_positions = 3
 	locked = 1
-	spawn_positions = 1
+	spawn_positions = 3
 	supervisors = "Military Captain"
 	selection_color = "#601919"
 	whitelist_only = 1
@@ -40,8 +41,8 @@ Assistant
 	title = "Military Soldier"
 	faction_s = "Military"
 	faction = "Station"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = -1
+	spawn_positions = -1
 	supervisors = "Military Officer"
 	selection_color = "#2E8B57"
 	access = list()			//See /datum/job/assistant/get_access()
@@ -102,6 +103,7 @@ Assistant
 /datum/job/military_officer
 	title = "Military Captain"
 	faction_s = "Military"
+	faction = "Station"
 	total_positions = 2
 	locked = 1
 	spawn_positions = 2

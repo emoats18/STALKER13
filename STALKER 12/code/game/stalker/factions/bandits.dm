@@ -12,7 +12,7 @@
 	faction_s = "Bandits"
 	faction = "Station"
 	total_positions = -1
-	spawn_positions = 5
+	spawn_positions = -1
 	supervisors = "Bandit Trader"
 	selection_color = "#000000"
 	access = list()
