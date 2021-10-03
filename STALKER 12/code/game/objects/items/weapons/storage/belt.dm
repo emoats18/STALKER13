@@ -156,8 +156,6 @@
 /obj/item/weapon/storage/belt/military/webbing/cheap
 	name = "cheap storage webbing"
 	desc = "Airsoft-grade synthetic webbing vest, with a huge part of its compartments being replaced with unremovable BB gun-rated plastic plates. At least it still holds something."
-	body_parts_covered = CHEST|GROIN
-	armor = list(melee = 20, bullet = 25, laser = 25,burn = 30, bomb = 20, bio = 0, rad = 0, electro = 0, psy = 0)
 	icon_state = "armorwebbing"
 	item_state = "armorwebbing"
 	storage_slots = 4
@@ -167,14 +165,14 @@
 	desc = "Hunting-grade synthetic webbing vest, full of spare space for holding various things you might wanna hold."
 	icon_state = "carrywebbing"
 	item_state = "carrywebbing"
-	storage_slots = 8
+	storage_slots = 6
 
 /obj/item/weapon/storage/belt/military/webbing/warbelt
 	name = "warbelt"
 	desc = "Old pattern USMC warbelt, previously issued to marines stationed around Iraq, now being mass imported into the Zone for a discount. Very common among mercenaries."
 	icon_state = "warbelt"
 	item_state = "warbelt"
-	storage_slots = 12
+	storage_slots = 8
 
 /obj/item/weapon/storage/belt/wands
 	name = "wand belt"
