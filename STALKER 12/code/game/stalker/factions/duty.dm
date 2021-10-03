@@ -15,8 +15,8 @@
 	faction_s = "Duty"
 	faction = "Station"
 	whitelist_only = 0
-	total_positions = 6
-	spawn_positions = 6
+	total_positions = -1
+	spawn_positions = -1
 	supervisors = "Major" // Bound to slip
 	selection_color = "#CC0000"
 	access = list()
@@ -66,7 +66,7 @@
 	..()
 	head = /obj/item/clothing/head/steel
 	uniform = UNIFORMPICK
-	suit = /obj/item/clothing/suit/hooded/kombez/ps5m
+	suit = /obj/item/clothing/suit/psz9d
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda
