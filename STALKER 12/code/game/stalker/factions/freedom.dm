@@ -51,7 +51,7 @@
 	suit_store = /obj/item/weapon/gun/projectile/automatic/mp5
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/stalker/b9x19 = 1)
-	r_pocket = /obj/item/weapon/stalker/bolts
+	r_pocket = /obj/item/device/flashlight/seclite
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa, /obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 
 // Svoboda leader
@@ -71,3 +71,4 @@
 	backpack_contents = list(/obj/item/ammo_box/stalker/b55645 = 1, /obj/item/ammo_box/magazine/stalker/m556x45 = 2, /obj/item/device/flashlight/seclite = 1)
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa, /obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
+	r_pocket = /obj/item/device/flashlight/seclite
