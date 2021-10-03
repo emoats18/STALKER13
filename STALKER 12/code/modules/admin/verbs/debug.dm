@@ -685,3 +685,13 @@ var/global/list/g_fancy_list_of_types = null
 
 	if(!holder)	return
 	debug_variables(huds[i])
+
+/client/proc/reload_whitelist()
+	set name = "Reload Stalker Whitelist"
+	set category = "Stalker"
+	set desc = "Force config reload to world default"
+	if(!check_rights(R_DEBUG))
+		return
+	message_admins("<span class='adminnotice'>[key_name(src)] reloaded whitelist.</span>")
+	log_admin("[key_name(src)] reloaded whitelist.")
+	load_whitelist()
