@@ -375,7 +375,7 @@ var/list/global_sidormat_list = list(
 	var/rating = 0
 	var/switches = BUY_STUFF
 	var/real_assorment = list()
-	var/list/special_factions = list("Loners", "Bandits", "Duty", "Freedom", "Mercenaries", "Monolith")
+	var/list/special_factions = list("Loners", "Bandits", "Duty", "Freedom", "Mercenaries", "Monolith","Traders")
 	var/path_ending = null
 	//Faction Locker
 	var/obj/item/device/assembly/control/door_device = null

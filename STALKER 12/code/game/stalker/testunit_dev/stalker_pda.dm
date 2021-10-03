@@ -3,7 +3,8 @@ var/global/global_lentahtml = ""
 
 /obj/item/device/stalker_pda
 	name = "KPK"
-	desc = "A portable device, used to communicate with other stalkers."
+	desc = "A staple of any Stalker within the Zone. Gives you the edge you'll need with it's functional chat and alert system! Least until someone knicks it off of you!"
+	eng_desc = "A staple of any Stalker within the Zone. Gives you the edge you'll need with it's functional chat and alert system! Least until someone knicks it off of you!"
 	icon = 'icons/stalker/device_new.dmi'
 	icon_state = "kpk_off"
 	item_state = "kpk"
