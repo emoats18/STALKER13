@@ -9,10 +9,11 @@
 // Freedom soldier
 /datum/job/freedom_soldier
 	title = "Freedom Soldier"
+	faction = "Station"
 	faction_s = "Freedom"
 	whitelist_only = 0
-	total_positions = 6
-	spawn_positions = 6
+	total_positions = -1
+	spawn_positions = -1
 	supervisors = "Chief Anarchist"
 	selection_color = "#3C8C3C"
 	access = list()
@@ -22,6 +23,7 @@
 // Svoboda leader
 /datum/job/freedom_leader
 	title = "Freedom Chief Anarchist" // This guy.
+	faction = "Station"
 	faction_s = "Freedom"
 	whitelist_only = 1
 	total_positions = 2
@@ -61,7 +63,7 @@
 	..()
 	head = /obj/item/clothing/head/steel
 	uniform = UNIFORMPICK
-	suit = /obj/item/clothing/suit/hooded/kombez/veter
+	suit = /obj/item/clothing/suit/strazh
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/device/stalker_pda

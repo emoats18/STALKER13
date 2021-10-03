@@ -971,14 +971,14 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	armor = list(melee = 30, bullet = 30, laser = 15,burn = 30, bomb = 0, bio = 10, rad = 10, electro = 30, psy = 0)
-	hoodtype = /obj/item/clothing/head/winterhood/stalker/renegade
+	hoodtype = /obj/item/clothing/head/winterhood/stalker/tancoat
 	durability = 150
 
 /obj/item/clothing/head/winterhood/stalker/tancoat
 	armor = list(melee = 10, bullet = 0, laser = 10,burn = 15, bomb = 50, bio = 0, rad = 10, electro = 15, psy = 0)
 	heat_protection = HEAD
 	max_heat_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
-	icon_state = "winterhood_renegade"
+	icon_state = "winterhood_tancoat"
 
 /obj/item/clothing/suit/huntercoat
 	name = "hunter coat"
