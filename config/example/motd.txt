@@ -1,0 +1,6 @@
+<!-- Most valid html will work in here, excluding images. -->
+
+<h1>Welcome to S.T.A.L.K.E.R. 12 - Ashes on Sunday!</h1>
+
+<i>This server is running a /stalker/station build.</i>
+<i>Join the Discord to read the rules: https://discord.com/invite/t9JQtsyyqG. Have fun!</i>
