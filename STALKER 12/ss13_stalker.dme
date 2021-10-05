@@ -14,11 +14,13 @@
 
 // BEGIN_INCLUDE
 #include "rust_g.dm"
+#include "tgs.dm"
 #include "_maps\__MAP_DEFINES.dm"
 #include "_maps\Cordon.dm"
 #include "code\_compile_options.dm"
 #include "code\hub.dm"
 #include "code\setup.dm"
+#include "code\tgs.dm"
 #include "code\world.dm"
 #include "code\__DATASTRUCTURES\heap.dm"
 #include "code\__DATASTRUCTURES\linked_lists.dm"
@@ -1643,6 +1645,7 @@
 #include "code\orphaned procs\AStar.dm"
 #include "code\orphaned procs\dbcore.dm"
 #include "code\orphaned procs\priority_announce.dm"
+#include "code\tgs\includes.dm"
 #include "interface\interface.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
