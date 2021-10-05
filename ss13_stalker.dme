@@ -14,7 +14,7 @@
 
 // BEGIN_INCLUDE
 #include "rust_g.dm"
-#include "tgs_defines.dm"
+#include "tgs.dm"
 #include "_maps\__MAP_DEFINES.dm"
 #include "_maps\Cordon.dm"
 #include "code\_compile_options.dm"
