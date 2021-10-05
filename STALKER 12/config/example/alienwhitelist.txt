@@ -1,5 +1,0 @@
-szymon79 = Bandit Trader
-szymon79 = Duty Major
-szymon79 = Military Soldier
-szymon79 = Military Captain
-szymon79 = Military Spetsnaz
