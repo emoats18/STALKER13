@@ -49,7 +49,6 @@
 #include "code\__DEFINES\stalker.dm"
 #include "code\__DEFINES\stat.dm"
 #include "code\__DEFINES\tablecrafting.dm"
-#include "code\__DEFINES\tgs.config.dm"
 #include "code\__DEFINES\tgs.dm"
 #include "code\__DEFINES\tgui.dm"
 #include "code\__DEFINES\tick.dm"
